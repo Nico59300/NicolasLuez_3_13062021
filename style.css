@@ -1,24 +1,48 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../fonts/Shikhand/Shrikhand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+body {
+  font-family: "Roboto";
+}
+
+.brand-name {
+  font-family: "Shrikhand";
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Shrikhand";
-  src: url("fonts/Shikhand/Shikhand-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-}
-body {
-  font-family: "Roboto";
+a {
+  text-decoration: none;
 }
 
-.title {
-  font-family: "Shrikhand";
-  font-weight: bold;
+footer {
+  background-color: #353535;
+  color: white;
+  padding: 1rem;
+}
+footer h2 {
+  margin-bottom: 1rem;
+}
+footer a {
+  color: white;
+}
+footer li {
+  list-style-type: none;
+  margin-bottom: 0.75rem;
+}
+footer li i {
+  width: 1rem;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,19 +1,19 @@
 // fonts
 @font-face {
     font-family: "Shrikhand";
-    src: url("fonts/Shikhand/Shikhand-Regular.ttf") format("truetype");
+    src: url("../fonts/Shikhand/Shrikhand-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 body {
     font-family: "Roboto";
 }
 
-.title {
+.brand-name {
     font-family: "Shrikhand";
     font-weight: bold;
 }
