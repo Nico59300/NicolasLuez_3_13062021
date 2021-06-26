@@ -1,0 +1,23 @@
+footer {
+    background-color: $dark-gray;
+    color: white;
+    padding: 1rem;
+
+    h2{
+        margin-bottom: 1rem;
+    }
+
+    a {
+        color: white;
+    }
+
+    li {
+        list-style-type: none;
+        margin-bottom: 0.75rem;
+
+        i {
+            width: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}
