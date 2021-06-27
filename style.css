@@ -25,8 +25,18 @@ a {
   text-decoration: none;
 }
 
+header {
+  text-align: center;
+  padding: 1rem;
+}
+header img {
+  width: 60%;
+}
+
 #location {
   width: 100%;
+  background-color: #F6F6F6;
+  padding-bottom: 3rem;
   text-align: center;
 }
 #location .city {
@@ -40,7 +50,16 @@ a {
   margin-right: 1rem;
 }
 #location .title {
+  width: 70%;
+  margin: auto;
   margin-bottom: 1rem;
+}
+#location p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  color: #353535;
+  font-size: 1.2rem;
 }
 
 footer {
@@ -61,6 +80,14 @@ footer li {
 footer li i {
   width: 1rem;
   margin-right: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 
 /*# sourceMappingURL=style.css.map */

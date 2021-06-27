@@ -1,6 +1,9 @@
 #location {
     width: 100%;
+    background-color: $light-gray;
+    padding-bottom: 3rem;
     text-align: center;
+    
     
     .city{
         width: 100%;
@@ -13,6 +16,15 @@
         }
     }
     .title {
+        width: 70%;
+        margin: auto; 
         margin-bottom: 1rem;
+    }
+    p {
+        width: 80%;
+        margin: auto; 
+        margin-bottom: 1rem;
+        color: $dark-gray;
+        font-size: 1.2rem;
     }
 }
