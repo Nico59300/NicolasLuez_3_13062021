@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Shrikhand";
+<<<<<<< HEAD
   src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+=======
+  src: url("/fonts/Shikhand/Shrikhand-Regular.ttf") format("truetype");
+>>>>>>> aab05498eb17d78564245adef36bb22625573a3b
 }
 @font-face {
   font-family: "Roboto";
