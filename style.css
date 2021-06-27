@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Shrikhand";
-  src: url("../fonts/Shikhand/Shrikhand-Regular.ttf") format("truetype");
+  src: url("/fonts/Shikhand/Shrikhand-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
