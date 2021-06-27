@@ -67,7 +67,7 @@ header img {
   padding: 1rem;
 }
 #fonctionnement .title {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 #fonctionnement ol {
   list-style: none;
@@ -107,6 +107,56 @@ header img {
   text-align: center;
   position: absolute;
   left: -0.95rem;
+}
+
+#restaurants {
+  width: 100%;
+  padding: 1rem;
+  background-color: #EAEAEA;
+}
+#restaurants .title {
+  margin: 2rem 0;
+}
+#restaurants a {
+  color: black;
+  text-decoration: none;
+}
+#restaurants .card {
+  width: 100%;
+  margin-bottom: 1rem;
+  position: relative;
+}
+#restaurants .card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+#restaurants .card .new {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  background-color: #99E2D0;
+  color: #278870;
+  font-weight: bold;
+}
+#restaurants .card .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0 0 1rem 1rem;
+}
+#restaurants .card .description h2 {
+  margin: inherit;
+  margin-bottom: 0.5rem;
+}
+#restaurants .card .description i {
+  margin: 1rem;
+  font-size: 1.8rem;
 }
 
 footer {
