@@ -212,14 +212,6 @@ header img {
   margin-bottom: 0.25rem;
 }
 
-.green-line {
-  width: 3.5rem;
-  height: 0;
-  border: 2px solid #99E2D0;
-  background-color: #99E2D0;
-  margin-bottom: 1rem;
-}
-
 footer {
   background-color: #353535;
   color: white;
@@ -246,6 +238,14 @@ button {
   border: none;
   color: white;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+
+.green-line {
+  width: 3.5rem;
+  height: 0;
+  border: 2px solid #99E2D0;
+  background-color: #99E2D0;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
