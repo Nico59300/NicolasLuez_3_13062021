@@ -1,6 +1,13 @@
 header {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     padding: 1rem;
+    a {
+        color: black;
+        align-self: center;
+        margin-right: 1rem;
+    }
     img {
         width: 60%;
     }
