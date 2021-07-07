@@ -33,7 +33,7 @@ header {
 header a {
   position: absolute;
   left: 2rem;
-  top: 2rem;
+  top: 1.7rem;
   font-size: 1.2rem;
   color: black;
   margin-right: 1rem;
@@ -214,8 +214,13 @@ header img {
   margin-bottom: 0.25rem;
 }
 
+.button-container {
+  text-align: center;
+}
+
 .food-element {
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 5rem;
   overflow: hidden;
@@ -229,26 +234,42 @@ header img {
 .food-element:hover > .check-container {
   margin: inherit;
 }
+.food-element:hover > .food-info {
+  width: 70%;
+}
 
 .food-info {
-  width: 100%;
+  width: 85%;
   padding: 1rem;
 }
 .food-info .food-name {
+  width: 100%;
   margin-bottom: 0.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.food-info .food-text {
+.food-info p {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.price {
   display: flex;
-  justify-content: space-between;
-}
-.food-info .food-text span {
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  width: 15%;
+  height: 100%;
   font-weight: bold;
 }
 
 .check-container {
-  width: 5rem;
+  width: 15%;
   height: 100%;
-  margin-right: -100%;
+  margin-right: -150%;
   display: flex;
   justify-content: center;
   align-items: center;
