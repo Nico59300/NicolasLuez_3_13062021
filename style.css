@@ -15,6 +15,27 @@ body {
   font-weight: bold;
 }
 
+button {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background: linear-gradient(to bottom right, #ff93e1, #a16be0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.green-line {
+  width: 3.5rem;
+  height: 0;
+  border: 2px solid #99E2D0;
+  background-color: #99E2D0;
+  margin-bottom: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -93,6 +114,7 @@ header img {
   counter-increment: step;
   position: relative;
   align-content: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 #fonctionnement li i {
   color: #686868;
@@ -132,7 +154,7 @@ header img {
 }
 #restaurants .card {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   position: relative;
 }
 #restaurants .card img {
@@ -159,6 +181,7 @@ header img {
   margin-top: -3px;
   background-color: #fff;
   border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 #restaurants .card .description h2 {
   margin: inherit;
@@ -227,6 +250,7 @@ header img {
   margin-bottom: 1rem;
   border-radius: 1rem;
   background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .food-element:hover {
   cursor: pointer;
@@ -299,22 +323,6 @@ footer li {
 footer li i {
   width: 1rem;
   margin-right: 1rem;
-}
-
-button {
-  padding: 1rem;
-  border-radius: 2rem;
-  border: none;
-  color: white;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-}
-
-.green-line {
-  width: 3.5rem;
-  height: 0;
-  border: 2px solid #99E2D0;
-  background-color: #99E2D0;
-  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

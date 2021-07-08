@@ -7,6 +7,7 @@
     margin-bottom: 1rem;
     border-radius: 1rem;
     background-color: #fff;
+    @include boxes-shadow;
     &:hover {
         cursor: pointer;
         &> .check-container{

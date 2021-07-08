@@ -1,5 +1,8 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./base/typography";
+@import "./components/button";
+@import "./components/green-line";
 @import "./layouts/reset";
 @import "./layouts/header";
 @import "./layouts/location";
@@ -8,6 +11,3 @@
 @import "./pages/_restaurant";
 @import "./layouts/food-list";
 @import "./layouts/footer";
-@import "./components/button";
-@import "./components/green-line";
-@import "./utils/mixins";

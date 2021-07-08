@@ -20,6 +20,7 @@
         counter-increment: step;
         position: relative;
         align-content: center;
+        @include boxes-shadow;
 
         i {
             color: lighten($color: $dark-gray, $amount: 20);

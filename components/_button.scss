@@ -1,7 +1,15 @@
+$light-secondary: lighten($colour-secondary, 5);
+$light-primary: lighten($colour-primary, 5);
+
 button {
     padding: 1rem;
     border-radius: 2rem;
     border: none;
     color: white;
     background: linear-gradient(to bottom right,$colour-secondary , $colour-primary);
+    @include boxes-shadow;
+    &:hover {
+        background: linear-gradient(to bottom right, $light-secondary , $light-primary);
+        box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    }
 }
