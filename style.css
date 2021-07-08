@@ -36,6 +36,39 @@ button:hover {
   margin-bottom: 1rem;
 }
 
+.heart-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+}
+.heart-container .far {
+  z-index: 10;
+  font-size: 1.8rem;
+}
+.heart-container .far:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+.heart-container .far:hover ~ .fas {
+  opacity: 1;
+}
+.heart-container .fas {
+  position: absolute;
+  z-index: 1;
+  font-size: 1.8rem;
+  opacity: 0;
+  background-image: linear-gradient(to top, #FF79DA, #9356DC);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -186,10 +219,6 @@ header img {
 #restaurants .card .description h2 {
   margin: inherit;
   margin-bottom: 0.5rem;
-}
-#restaurants .card .description i {
-  margin: 1rem;
-  font-size: 1.8rem;
 }
 
 .restaurant-img {
