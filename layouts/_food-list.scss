@@ -4,13 +4,11 @@
     width: 100%;
     height: 5rem;
     overflow: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: 1.7rem;
     opacity: 0;
     border-radius: 1rem;
     background-color: #ffffff;
-    animation: anim-li 2000ms ;
-    animation-fill-mode: forwards;
-    transition:  margin-bottom ease-in-out;
+    
     @include boxes-shadow;
     &:hover {
         cursor: pointer;
@@ -25,18 +23,67 @@
         }
     }
 }
-.food-element:nth-child(1) {
-    animation-delay: 400ms;
+
+.entrees {
+    .food-element {
+        animation: anim-li 500ms ;
+        animation-fill-mode: forwards;
+        transition:  margin-bottom ease-in-out;
+    }
+    .food-element:nth-child(1) {
+        animation-delay: 400ms;
+    }
+    .food-element:nth-child(2) {
+        animation-delay: 800ms;
+    }
+    .food-element:nth-child(3) {
+        animation-delay: 1200ms;
+    }
+    .food-element:nth-child(4) {
+        animation-delay: 1600ms;
+    }
 }
-.food-element:nth-child(2) {
-    animation-delay: 800ms;
+
+.plats {
+    .food-element {
+        animation: anim-li 500ms ;
+        animation-fill-mode: forwards;
+        transition:  margin-bottom ease-in-out;
+    }
+    .food-element:nth-child(1) {
+        animation-delay: 2000ms;
+    }
+    .food-element:nth-child(2) {
+        animation-delay: 2400ms;
+    }
+    .food-element:nth-child(3) {
+        animation-delay: 2800ms;
+    }
+    .food-element:nth-child(4) {
+        animation-delay: 3200ms;
+    }
 }
-.food-element:nth-child(3) {
-    animation-delay: 1200ms;
+
+.desserts {
+    .food-element {
+        animation: anim-li 500ms;
+        animation-fill-mode: forwards;
+        transition:  margin-bottom ease-in-out;
+    }
+    .food-element:nth-child(1) {
+        animation-delay: 3600ms;
+    }
+    .food-element:nth-child(2) {
+        animation-delay: 4000ms;
+    }
+    .food-element:nth-child(3) {
+        animation-delay: 4400ms;
+    }
+    .food-element:nth-child(4) {
+        animation-delay: 4800ms;
+    }
 }
-.food-element:nth-child(4) {
-    animation-delay: 1600ms;
-}
+
 .food-info {
     width: 85%;
     padding: 1rem;

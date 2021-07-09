@@ -81,6 +81,10 @@
     0%{
         opacity: 1;
     }
+    95%{
+
+        opacity: 0;
+    }
     100%{
         opacity: 0;
         z-index: -1;
