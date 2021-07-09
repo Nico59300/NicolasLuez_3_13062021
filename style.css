@@ -280,8 +280,11 @@ header img {
   height: 5rem;
   overflow: hidden;
   margin-bottom: 1rem;
+  opacity: 1;
   border-radius: 1rem;
-  background-color: #fff;
+  background-color: #ffffff;
+  animation: anim-li 2000ms;
+  transition: margin-bottom opacity;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .food-element:hover {
@@ -343,6 +346,19 @@ header img {
   transition: transform 400ms ease-in-out 200ms;
 }
 
+@keyframes anim-li {
+  0% {
+    opacity: 0;
+    margin-bottom: 1.7rem;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    margin-bottom: 1rem;
+  }
+}
 footer {
   background-color: #353535;
   color: white;
