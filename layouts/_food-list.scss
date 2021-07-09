@@ -10,7 +10,7 @@
     background-color: #ffffff;
     animation: anim-li 2000ms ;
     animation-fill-mode: forwards;
-    transition:  margin-bottom;
+    transition:  margin-bottom ease-in-out;
     @include boxes-shadow;
     &:hover {
         cursor: pointer;
