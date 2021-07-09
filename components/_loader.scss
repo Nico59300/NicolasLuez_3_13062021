@@ -1,0 +1,87 @@
+.loader{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    animation: loader-anim 3000ms ease-in-out 2000ms ;
+    animation-fill-mode: forwards;
+    h2{
+        font-family: Shrikhand;
+        font-size: 2rem;
+        text-align: center;
+        color:white;
+        margin-bottom: 2rem;
+        transform: scale(0);
+        animation: title-anim 1000ms ease-in-out ;
+        animation-fill-mode: forwards;
+        //transition:  transform;
+    }
+    .bubbles-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+        .bubble{
+            height: 10px;
+            width: 10px;
+            list-style-type: none;
+            margin-right: 1rem;
+            background-color: white;
+            border-radius: 50%;
+            transform: scale(0);
+            animation: bubble-anim 900ms ease-in-out 2 ;
+            animation-fill-mode: forwards;
+        }
+        .bubble:nth-child(1){
+            background-color: $colour-primary;
+            
+        }
+        .bubble:nth-child(2){
+            background-color: $colour-secondary;
+            animation-delay: 250ms;
+        }
+        .bubble:nth-child(3){
+            background-color: $colour-tertiary;
+            animation-delay: 500ms;
+        }
+    }
+}
+
+@keyframes title-anim {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+@keyframes bubble-anim {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        margin-top: -2rem;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes loader-anim {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
