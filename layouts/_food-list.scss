@@ -11,7 +11,10 @@
     &:hover {
         cursor: pointer;
         &> .check-container{
-            margin: inherit;
+            margin-right: inherit;
+            &> .fas {
+                transform: rotate(360deg);
+            }
         }
         &> .food-info {
             width: 70%;
@@ -22,6 +25,7 @@
 .food-info {
     width: 85%;
     padding: 1rem;
+    transition: width 1000ms;
     .food-name {
         width: 100%;
         margin-bottom: .25rem;
@@ -51,13 +55,16 @@
     width: 15%;
     height: 100%;
     margin-right: -150%;
+    transition: margin-right 1000ms;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $colour-tertiary;
     border-radius: 0 1rem 1rem 0;
-    i {
+    .fas {
         color: white;
         font-size: 1.5rem;
+        transition: transform 400ms ease-in-out 200ms;
     }
 }
+
