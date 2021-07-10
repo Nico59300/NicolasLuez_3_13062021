@@ -30,8 +30,7 @@ button:hover {
 
 .green-line {
   width: 3.5rem;
-  height: 0;
-  border: 2px solid #99E2D0;
+  height: 0.3rem;
   background-color: #99E2D0;
   margin-bottom: 1rem;
 }
@@ -67,7 +66,6 @@ button:hover {
   background-image: linear-gradient(to top, #FF79DA, #9356DC);
   background-size: 100%;
   background-repeat: repeat;
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
@@ -248,7 +246,7 @@ header img {
 #fonctionnement li i {
   color: #686868;
   margin-right: 1rem;
-  size: 1.5rem;
+  font-size: 1.5rem;
 }
 #fonctionnement li:hover {
   background-color: #f2eafb;
