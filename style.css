@@ -173,19 +173,23 @@ a {
 
 header {
   position: relative;
-  text-align: center;
+  display: flex;
+  height: fit-content;
   padding: 1rem;
 }
+header .link-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 header a {
-  position: absolute;
-  left: 2rem;
-  top: 1.7rem;
   font-size: 1.2rem;
   color: black;
   margin-right: 1rem;
 }
 header img {
   width: 60%;
+  margin: auto;
 }
 
 #location {
