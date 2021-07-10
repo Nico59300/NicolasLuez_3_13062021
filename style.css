@@ -54,6 +54,7 @@ button:hover {
   cursor: pointer;
 }
 .heart-container .far:hover ~ .fas {
+  opacity: 1;
   transform: scale(1);
 }
 .heart-container .fas {
@@ -61,6 +62,7 @@ button:hover {
   z-index: 1;
   font-size: 1.8rem;
   transform: scale(0);
+  opacity: 0;
   transition: transform 500ms;
   background-image: linear-gradient(to top, #FF79DA, #9356DC);
   background-size: 100%;
