@@ -24,7 +24,7 @@
         font-size: 1.8rem;
         transform: scale(0);
         opacity: 0;
-        transition: transform 500ms;
+        transition: all 500ms;
         background-image: linear-gradient(to top, $colour-secondary, $colour-primary);
         background-size: 100%;
         background-repeat: repeat;
@@ -35,3 +35,4 @@
         -moz-text-fill-color: transparent;
     }
 }
+

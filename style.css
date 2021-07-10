@@ -63,7 +63,7 @@ button:hover {
   font-size: 1.8rem;
   transform: scale(0);
   opacity: 0;
-  transition: transform 500ms;
+  transition: all 500ms;
   background-image: linear-gradient(to top, #FF79DA, #9356DC);
   background-size: 100%;
   background-repeat: repeat;
