@@ -7,6 +7,7 @@ button {
     border: none;
     color: white;
     background: linear-gradient(to bottom right,$colour-secondary , $colour-primary);
+    transition: all 500ms;
     @include boxes-shadow;
     &:hover {
         background: linear-gradient(to bottom right, $light-secondary , $light-primary);

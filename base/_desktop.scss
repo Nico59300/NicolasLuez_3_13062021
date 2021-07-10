@@ -1,0 +1,51 @@
+@media screen and (min-width: 769px) {
+    header {
+        img {
+            width: 40%;
+            max-width: 400px;
+        }
+    }
+    // index page
+    #fonctionnement {
+        
+        ol {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                width: 30%;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #restaurants {
+        .cards-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            a{
+                width: 50%;
+            }
+        }
+    }
+
+    //restaurant page
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .restaurant_name, .button-container{
+            width: 100%;
+        }
+        .entrees, .plats, .desserts {
+            width: 30%;
+            padding: 0;
+
+            .food-list {
+                width: 100%;
+            }
+        }
+    }
+}

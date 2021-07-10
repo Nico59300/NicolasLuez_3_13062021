@@ -1,0 +1,52 @@
+@media screen and (min-width: 426px) {
+
+    header  {
+        .link-container {
+            padding-left: 1.5rem;
+        }
+        i {
+            font-size: 1.5rem;
+        }
+        img {
+            width: 50%;
+        }
+    }
+    footer {
+        padding: 2rem;
+        text-align: center;
+    }
+    // rules in index
+    #fonctionnement {
+        padding: 2rem;
+
+        li {
+            width: 80%;
+            font-size: 1.3rem;
+
+            i {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+    //restaurant-list in index
+    #restaurants {
+        padding: 2rem;
+        justify-content: center;
+        .card{
+            width: 80%;
+            margin: auto;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    //page restaurant
+    .restaurant_name,.entrees, .plats, .desserts {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .food-list {
+        width: 90%;
+        margin: auto;
+    }
+}
