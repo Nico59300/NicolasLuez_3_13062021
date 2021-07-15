@@ -255,6 +255,11 @@ header img {
 #fonctionnement li:hover i {
   color: #9356DC;
 }
+@media screen and (max-width: 320px) {
+  #fonctionnement li {
+    font-size: 0.9rem;
+  }
+}
 #fonctionnement li:before {
   content: counter(step);
   color: white;
@@ -266,6 +271,10 @@ header img {
   text-align: center;
   position: absolute;
   left: -0.95rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
 }
 
 #restaurants {
