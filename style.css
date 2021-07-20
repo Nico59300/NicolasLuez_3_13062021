@@ -323,6 +323,8 @@ header img {
 #restaurants .card .description h2 {
   margin: inherit;
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 .restaurant-img {
