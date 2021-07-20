@@ -91,12 +91,14 @@
     .food-name {
         width: 100%;
         margin-bottom: .25rem;
+        font-size: 1.1rem;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
     p{
     width: 100%;
+    font-size: .85rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

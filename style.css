@@ -345,6 +345,7 @@ header img {
 }
 .container ul {
   list-style-type: none;
+  margin-bottom: 2.5rem;
 }
 .container button {
   width: 10rem;
@@ -359,7 +360,7 @@ header img {
 }
 .restaurant_name h2 {
   font-family: Shrikhand;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-right: 1rem;
 }
 .restaurant_name i {
@@ -370,6 +371,7 @@ header img {
 .entrees h2, .plats h2, .desserts h2 {
   text-transform: uppercase;
   margin-bottom: 0.25rem;
+  font-size: 1.2rem;
 }
 
 .button-container {
@@ -463,12 +465,14 @@ header img {
 .food-info .food-name {
   width: 100%;
   margin-bottom: 0.25rem;
+  font-size: 1.1rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .food-info p {
   width: 100%;
+  font-size: 0.85rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

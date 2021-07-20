@@ -15,6 +15,7 @@
     margin-top: -4rem;
     ul {
         list-style-type: none;
+        margin-bottom: 2.5rem;
     }
     button {
         width: 10rem;
@@ -29,7 +30,7 @@
     margin-bottom: 1rem;
     h2 {
         font-family: Shrikhand;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-right: 1rem;
     }
     i {
@@ -41,6 +42,7 @@
 .entrees h2, .plats h2, .desserts h2 {
     text-transform: uppercase;
     margin-bottom: 0.25rem;
+    font-size: 1.2rem;
 }
 
 .button-container {
